@@ -11,6 +11,20 @@ char readChar() {
 
 double readDouble() {
     char buf[100];
-    fgets(buf, sizeof(buf), stdin);
-    return atof(buf);
+    char *endptr;
+    double value;
+    while (1) {
+        fgets(buf, sizeof(buf), stdin);
+        value = strtod(buf, &endptr);
+        if (endptr == buf && *endptr != '\n' && *endptr != '\0') {
+            printf("Ошибка: введите число\n");
+            continue;
+        }
+        if (*endptr != '\n' && *endptr != '\0') {
+            while (*endptr == ' ' || *endptr == '\t') {
+                endptr++;
+            }
+        }
+        return value;
+    }
 }
