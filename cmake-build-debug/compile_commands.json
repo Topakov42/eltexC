@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/topa/CLionProjects/task2_2/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/task2_2.dir/main.c.o -c /home/topa/CLionProjects/task2_2/main.c",
+  "file": "/home/topa/CLionProjects/task2_2/main.c",
+  "output": "/home/topa/CLionProjects/task2_2/cmake-build-debug/CMakeFiles/task2_2.dir/main.c.o"
+}
+]
