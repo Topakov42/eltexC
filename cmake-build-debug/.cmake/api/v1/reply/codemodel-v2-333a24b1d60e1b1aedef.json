@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "4.2"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "task2_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-task2_2-Debug-b8e40f9d07dbdaec57df.json",
+					"jsonFile" : "target-task2_2-Debug-ca75549a7fcf707c36cf.json",
 					"name" : "task2_2",
 					"projectIndex" : 0
 				}
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/topa/CLionProjects/task2_2/cmake-build-debug",
-		"source" : "/home/topa/CLionProjects/task2_2"
+		"build" : "C:/Users/Topa/CLionProjects/task2_2/cmake-build-debug",
+		"source" : "C:/Users/Topa/CLionProjects/task2_2"
 	},
 	"version" : 
 	{

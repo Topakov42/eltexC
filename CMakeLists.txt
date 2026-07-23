@@ -3,4 +3,6 @@ project(task2_2 C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(task2_2 main.c)
+add_executable(task2_2 src/main.c
+        src/math_ops.c
+        src/io_utils.c)
