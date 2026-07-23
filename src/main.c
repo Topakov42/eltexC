@@ -1,6 +1,7 @@
 #include "../include/io_utils.h"
 #include "../include/math_ops.h"
 #include <stdio.h>
+#include <math.h>
 
 
 int main(void) {
@@ -15,13 +16,22 @@ int main(void) {
         char z = readChar();
 
         switch (z) {
-            case '+': sum(x, y);
+            case '+':
+                printf("Sum: %lf\n", sum(x, y));
                 break;
-            case '-': sub(x, y);
+            case '-':
+                printf("Sub: %lf\n", sub(x, y));
                 break;
-            case '*': mul(x, y);
+            case '*':
+                printf("Mul: %lf\n", mul(x, y));
                 break;
-            case '/': divv(x, y);
+            case '/':
+                double res = divv(x, y);
+                if (isnan(res)) {
+                    printf("Nylzua del na nol\n");
+                } else {
+                    printf("Division: %lf\n", res);
+                }
                 break;
             case 'q':
                 printf("Goodbye!\n");
