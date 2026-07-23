@@ -1,12 +1,7 @@
 #include "../include/io_utils.h"
 #include <stdio.h>
-#include <stdlib.h> f
+#include <stdlib.h>
 
-int readInt() {
-    char buf[100];
-    fgets(buf, sizeof(buf), stdin);
-    return atoi(buf);
-}
 
 char readChar() {
     char buf[100];

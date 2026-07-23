@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2026.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\Topa\CLionProjects\task2_2 -B C:\Users\Topa\CLionProjects\task2_2\cmake-build-debug
+/snap/clion/473/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/473/bin/ninja/linux/x64/ninja -G Ninja -S /home/topa/CLionProjects/task2_2 -B /home/topa/CLionProjects/task2_2/cmake-build-debug
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/Topa/CLionProjects/task2_2/cmake-build-debug
+-- Build files have been written to: /home/topa/CLionProjects/task2_2/cmake-build-debug

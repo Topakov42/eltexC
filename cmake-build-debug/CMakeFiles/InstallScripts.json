@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/Topa/CLionProjects/task2_2/cmake-build-debug/cmake_install.cmake"
+		"/home/topa/CLionProjects/task2_2/cmake-build-debug/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

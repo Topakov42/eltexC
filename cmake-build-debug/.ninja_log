@@ -1,0 +1,10 @@
+# ninja log v7
+1	33	1784826962441405703	build.ninja	298c0eea7451e2f9
+1	33	1784826962441405703	/home/topa/CLionProjects/task2_2/cmake-build-debug/cmake_install.cmake	298c0eea7451e2f9
+1	27	1784826962452407071	CMakeFiles/task2_2.dir/src/main.c.o	c5f248f229799a12
+1	30	1784826976935229352	CMakeFiles/task2_2.dir/src/math_ops.c.o	bd03e6d078fd81d9
+2	35	1784826976936229480	CMakeFiles/task2_2.dir/src/io_utils.c.o	499bf5c1934a18d
+35	58	1784826976969233677	task2_2	de4de68be867f68a
+1	33	1784827299905742190	CMakeFiles/task2_2.dir/src/main.c.o	c5f248f229799a12
+1	38	1784827299905742190	CMakeFiles/task2_2.dir/src/io_utils.c.o	499bf5c1934a18d
+38	67	1784827299942728654	task2_2	de4de68be867f68a

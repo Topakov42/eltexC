@@ -1,3 +1,3 @@
-C:/Users/Topa/CLionProjects/task2_2/cmake-build-debug/CMakeFiles/task2_2.dir
-C:/Users/Topa/CLionProjects/task2_2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Topa/CLionProjects/task2_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/topa/CLionProjects/task2_2/cmake-build-debug/CMakeFiles/task2_2.dir
+/home/topa/CLionProjects/task2_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/topa/CLionProjects/task2_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
