@@ -16,7 +16,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -31,12 +32,20 @@
 					"name" : "task2_2",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_test-Debug-286b03d2b972401f992e.json",
+					"name" : "my_test",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "task2_2::@6890427a1f51a3e7e1df",
@@ -50,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/topa/CLionProjects/task2_2/cmake-build-debug",
-		"source" : "/home/topa/CLionProjects/task2_2"
+		"build" : "/home/topa/eltex/task2_3/cmake-build-debug",
+		"source" : "/home/topa/eltex/task2_3"
 	},
 	"version" : 
 	{

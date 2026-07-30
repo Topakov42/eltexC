@@ -8,3 +8,10 @@ add_executable(task2_2 src/main.c
         src/io_utils.c
         include/io_utils.h
         include/math_ops.h)
+
+
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(CHECK REQUIRED check)
+
+add_executable(my_test tests/test_cal.c src/math_ops.c)
+target_link_libraries(my_test ${CHECK_LIBRARIES})

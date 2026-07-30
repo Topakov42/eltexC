@@ -121,13 +121,28 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/snap/clion/473/bin/cmake/linux/x64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/473/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/473/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/473/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindPackageMessage.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/topa/CLionProjects/task2_2/cmake-build-debug",
-		"source" : "/home/topa/CLionProjects/task2_2"
+		"build" : "/home/topa/eltex/task2_3/cmake-build-debug",
+		"source" : "/home/topa/eltex/task2_3"
 	},
 	"version" : 
 	{

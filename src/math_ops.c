@@ -16,7 +16,7 @@ double mul(double a, double b) {
 
 double divv(double a, double b) {
     if (b == 0.0) {
-        return NAN;
+        return NAN;  // проверка делятеля на 0
     }
     return a / b;
 }
