@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/my_test.dir/tests/test_cal.c.o CMakeFiles/my_test.dir/src/math_ops.c.o -o my_test  -lcheck_pic -lrt -lm -lsubunit
