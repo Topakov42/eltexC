@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/task2_3.dir/link.d CMakeFiles/task2_3.dir/src/main.c.o CMakeFiles/task2_3.dir/src/math_ops.c.o CMakeFiles/task2_3.dir/src/io_utils.c.o -o task2_3
