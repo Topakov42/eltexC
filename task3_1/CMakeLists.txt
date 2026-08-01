@@ -12,4 +12,5 @@ add_executable(task3_1 src/main.c
         include/read_file_rights.h
         include/print_letters.h
         src/print_letters.c
+        src/write_choice.c
 )
