@@ -8,4 +8,6 @@ add_executable(task3_1 src/main.c
         include/print_binary.h
         src/parse_rwx.c
         include/parse_rwx.h
+        src/read_file_rights.c
+        include/read_file_rights.h
 )
