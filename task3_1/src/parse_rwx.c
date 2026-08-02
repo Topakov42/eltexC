@@ -22,7 +22,8 @@ int parse_rwx(const char *rwx) {
 }
 
 
-int parse_string_rights(const char *str) {
+int parse_string_rights(const char *str) {   //  получает строку типа wwwrrrxxx и превращает ее в число
+
     if (strlen(str) != 9) {
         printf("Ошибка, строка должна иметь 9 символов\n");
         return -1;
@@ -34,5 +35,11 @@ int parse_string_rights(const char *str) {
 
     int total_mode = (user << 6) | (group << 3) | others; // группируем числа
 
-    return total_mode;
+    return total_mode;   // возвращает число типа 462
 }
+
+
+
+
+
+
