@@ -2,28 +2,50 @@
 #include "../include/write_console.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 #include "../include/print_letters.h"
 #include "../include/read_file_rights.h"
 #include <sys/stat.h>
 #include  "../include/print_binary.h"
 
 void change_rights() {
-    printf("Введите название файла, у которого хотите поменять права :\n");
-    char *nameFile = write_letters();
-    printf("Текущие права файла : \n");
-    read_file_rights(nameFile);
-    struct stat fileInfo;
     int rwx;
+    struct stat fileInfo;
 
+    printf("Введите название файла, у которого хотите поменять права :\n");
+
+    char *nameFile = write_letters();
     if (stat(nameFile, &fileInfo) == 0) {
         rwx = fileInfo.st_mode & 0777;
+    } else {
+        perror("Error:");
     }
 
+
+    printf("Текущие права файла : \n");
+    read_file_rights(nameFile);
     free(nameFile);
 
     printf("Введите новые права в формате 'u+x, g=rwx'\n");
-
     char *commands = write_letters();
+
+    char validChar[10] = {'r', 'w', 'x', 'a', '-', '+', '=', 'u', 'g', 'o'};
+    
+    for (int i = 0; i < strlen(commands); ++i) {
+        int found = 0;
+        for (int j = 0; j < 10; ++j) {
+            if (commands[i] == validChar[j]) {
+                found = 1;
+                break;
+            }
+        }
+        if (!found || strlen(commands) == 0) {
+            printf("Ошибка, неверный аргументов ввод\n");
+            break;
+        }
+    }
+
 
     int i = 0;
     int targetMask = 0;
@@ -69,10 +91,10 @@ void change_rights() {
         rwx = (rwx & ~targetMask) | final_bits;
     }
 
-    printf("Новый права файла :\n");
+    printf("Новые права файла :\n");
     print_letters(rwx);
     printf("Представление в виде числа : %o\n", rwx);
-    printf("Предсатвление в бинарном виде : ");
+    printf("Представление в бинарном виде : ");
     print_binary(rwx);
     free(commands);
 }

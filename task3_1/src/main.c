@@ -36,6 +36,7 @@ void print_rights() {
             }
             free(rwx);
             print_binary(numRights);
+            break;
         default:
             printf("Неверная операция \n");
             break;
@@ -57,7 +58,6 @@ int main(void) {
     while (1) {
         print_menu();
         int choice = write_number();
-
         switch (choice) {
             case 1:
                 print_rights();

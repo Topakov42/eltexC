@@ -5,7 +5,7 @@
 #include "../include/print_letters.h"
 
 
-void read_file_rights(char *fileName) {
+void read_file_rights(char *fileName) {  // 
     struct stat fileInfo;
     if (stat(fileName, &fileInfo) == 0) {
         int rwx = fileInfo.st_mode & 0777;
@@ -14,6 +14,6 @@ void read_file_rights(char *fileName) {
         printf("Битовый права : ");
         print_binary(rwx);
     } else {
-        perror("Error");
+        perror("Error:");
     }
 }
