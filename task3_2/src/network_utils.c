@@ -5,31 +5,38 @@
 
 int parse_ip(const char *str, uint32_t *ip) {
     // проверяем что ип корректный и парсим его
-    int result = inet_pton(AF_INET, str, ip);
-    if (result != 1) {
-        printf("Ошибка в преобразовании IP\n");
+    struct in_addr addr;
+    if (inet_pton(AF_INET, str, &addr) != 1) {
+        printf("Ошибка IP\n");
         return 0;
     }
-    return result;
+    *ip = ntohl(addr.s_addr);
+    return 1;
 }
 
+
 int parse_mask(const char *str, uint32_t *mask) {
-    // парсим маску + валидация
-    int result = inet_pton(AF_INET, str, mask);
+    // парсим маску + валидация {
+    struct in_addr addr;
+    int result = inet_pton(AF_INET, str, &addr);
+
+
     if (result != 1) {
         printf("Ошибка в преобразовании mask\n");
         return 0;
     }
 
+    *mask = ntohl(addr.s_addr);
     if (validate_mask(*mask) != 1) {
         printf("Ошибка в написании mask\n");
         return 0;
     }
-
-    return result;
+    return 1;
 }
 
-int validate_mask(uint32_t mask) { // Валидация маски на корректность. + проверяем что есть хотя бы 1 свободный бит под устройства
+
+int validate_mask(uint32_t mask) {
+    // Валидация маски на корректность. + проверяем что есть хотя бы 1 свободный бит под устройства
     int found_zero = 0;
     int count = 0;
     for (int i = 31; i >= 0; i--) {
@@ -42,7 +49,7 @@ int validate_mask(uint32_t mask) { // Валидация маски на кор�
             return 0;
         }
     }
-    if (count == 32) {
+    if (count >= 31 ) {
         return 0;
     }
     return 1;
@@ -53,8 +60,3 @@ uint32_t cal_network(uint32_t ip, uint32_t mask) {
     return ip & mask;
 }
 
-
-uint32_t cal_broadcast(uint32_t network, uint32_t mask) // адрес для броадкаста
-{
-    return network | ~mask;
-}

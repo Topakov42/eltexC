@@ -6,16 +6,14 @@ typedef struct {
     uint32_t ip;
     uint32_t mask;
     uint32_t network;
-    uint32_t broadcast;
 } Network;
 
 int parse_ip(const char *str, uint32_t *ip);
 
 int validate_mask(uint32_t mask);
 
-int parse_ip(const char *str, uint32_t *ip);
+int parse_mask(const char *str, uint32_t *mask);
 
 uint32_t cal_network(uint32_t ip, uint32_t mask);
 
-uint32_t cal_broadcast(uint32_t network, uint32_t mask);
 #endif //TASK3_2_NETWORK_UTILS_H
