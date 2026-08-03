@@ -1,4 +1,5 @@
 #include "../include/parse_rwx.h"
+
 #include <stdio.h>
 #include <string.h>
 
@@ -21,18 +22,15 @@ int parse_rwx(const char *rwx) {
     return value;
 }
 
-
 int parse_string_rights(const char *str) {
     //  получает строку типа wwwrrrxxx и превращает ее в число
-
 
     if (strlen(str) != 9) {
         printf("Ошибка, длинна строки должна быть 9 символов \n");
         return -1;
     }
 
-
-    char validChar[4] = {'r', 'w', 'x', '-'}; // валидация строки
+    char validChar[4] = {'r', 'w', 'x', '-'};  // валидация строки
     for (int i = 0; i < 9; ++i) {
         int found = 0;
 
@@ -48,9 +46,9 @@ int parse_string_rights(const char *str) {
         }
     }
 
-    int user = parse_rwx(&str[0]); //берем первые три символа
-    int group = parse_rwx(&str[3]); // следующие 3
-    int others = parse_rwx(&str[6]); // последние 3
-    int total_mode = (user << 6) | (group << 3) | others; // группируем числа
-    return total_mode; // возвращает число типа 462
+    int user = parse_rwx(&str[0]);    // берем первые три символа
+    int group = parse_rwx(&str[3]);   // следующие 3
+    int others = parse_rwx(&str[6]);  // последние 3
+    int total_mode = (user << 6) | (group << 3) | others;  // группируем числа
+    return total_mode;  // возвращает число типа 462
 }

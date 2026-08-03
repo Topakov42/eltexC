@@ -1,9 +1,10 @@
 #include "../include/write_console.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-int write_number() {
+int write_number() {  // счиытваем число с консоли
     int choice;
     char *endptr;
     char buf[100];
@@ -28,13 +29,13 @@ int write_number() {
     }
 }
 
-char *write_letters() {
-    char *str = malloc(100); // выделяем память в куче
+char *write_letters() {       // считываем строку с консоли
+    char *str = malloc(100);  // выделяем память в куче
     fgets(str, 100, stdin);
     size_t len = strlen(str);
     if (len > 0 && str[len - 1] == '\n') {
         str[len - 1] = '\0';
     }
-    //используем free в месте, где вызвали write_letters
+    // используем free в месте, где вызвали write_letters
     return str;
 }

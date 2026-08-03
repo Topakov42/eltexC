@@ -6,4 +6,4 @@
 #define TASK3_1_PARSE_RWX_H
 int parse_rwx(const char *rwx);
 
-#endif //TASK3_1_PARSE_RWX_H
+#endif  // TASK3_1_PARSE_RWX_H
