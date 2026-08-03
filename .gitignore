@@ -1,0 +1,10 @@
+/task3_2/
+
+cmake-build-*/
+build/
+
+.idea/
+.vscode/
+
+*.o
+*.out
