@@ -16,3 +16,5 @@ add_executable(task3_1 src/main.c
         src/change_rights.c
         include/change_rights.h
 )
+
+add_executable(unit_tests tests/tests.c src/parse_rwx.c include/parse_rwx.h)
