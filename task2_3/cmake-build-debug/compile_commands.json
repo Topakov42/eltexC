@@ -1,32 +1,32 @@
 [
 {
-  "directory": "/home/topa/CLionProjects/task2_3/cmake-build-debug",
-  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/task2_3.dir/src/main.c.o -c /home/topa/CLionProjects/task2_3/src/main.c",
-  "file": "/home/topa/CLionProjects/task2_3/src/main.c",
+  "directory": "/home/topa/Desktop/c/eltexC/task2_3/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/task2_3.dir/src/main.c.o -c /home/topa/Desktop/c/eltexC/task2_3/src/main.c",
+  "file": "/home/topa/Desktop/c/eltexC/task2_3/src/main.c",
   "output": "CMakeFiles/task2_3.dir/src/main.c.o"
 },
 {
-  "directory": "/home/topa/CLionProjects/task2_3/cmake-build-debug",
-  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/task2_3.dir/src/math_ops.c.o -c /home/topa/CLionProjects/task2_3/src/math_ops.c",
-  "file": "/home/topa/CLionProjects/task2_3/src/math_ops.c",
+  "directory": "/home/topa/Desktop/c/eltexC/task2_3/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/task2_3.dir/src/math_ops.c.o -c /home/topa/Desktop/c/eltexC/task2_3/src/math_ops.c",
+  "file": "/home/topa/Desktop/c/eltexC/task2_3/src/math_ops.c",
   "output": "CMakeFiles/task2_3.dir/src/math_ops.c.o"
 },
 {
-  "directory": "/home/topa/CLionProjects/task2_3/cmake-build-debug",
-  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/task2_3.dir/src/io_utils.c.o -c /home/topa/CLionProjects/task2_3/src/io_utils.c",
-  "file": "/home/topa/CLionProjects/task2_3/src/io_utils.c",
+  "directory": "/home/topa/Desktop/c/eltexC/task2_3/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/task2_3.dir/src/io_utils.c.o -c /home/topa/Desktop/c/eltexC/task2_3/src/io_utils.c",
+  "file": "/home/topa/Desktop/c/eltexC/task2_3/src/io_utils.c",
   "output": "CMakeFiles/task2_3.dir/src/io_utils.c.o"
 },
 {
-  "directory": "/home/topa/CLionProjects/task2_3/cmake-build-debug",
-  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/my_test.dir/tests/test_cal.c.o -c /home/topa/CLionProjects/task2_3/tests/test_cal.c",
-  "file": "/home/topa/CLionProjects/task2_3/tests/test_cal.c",
+  "directory": "/home/topa/Desktop/c/eltexC/task2_3/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/my_test.dir/tests/test_cal.c.o -c /home/topa/Desktop/c/eltexC/task2_3/tests/test_cal.c",
+  "file": "/home/topa/Desktop/c/eltexC/task2_3/tests/test_cal.c",
   "output": "CMakeFiles/my_test.dir/tests/test_cal.c.o"
 },
 {
-  "directory": "/home/topa/CLionProjects/task2_3/cmake-build-debug",
-  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/my_test.dir/src/math_ops.c.o -c /home/topa/CLionProjects/task2_3/src/math_ops.c",
-  "file": "/home/topa/CLionProjects/task2_3/src/math_ops.c",
+  "directory": "/home/topa/Desktop/c/eltexC/task2_3/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles/my_test.dir/src/math_ops.c.o -c /home/topa/Desktop/c/eltexC/task2_3/src/math_ops.c",
+  "file": "/home/topa/Desktop/c/eltexC/task2_3/src/math_ops.c",
   "output": "CMakeFiles/my_test.dir/src/math_ops.c.o"
 }
 ]
