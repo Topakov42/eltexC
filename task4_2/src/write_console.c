@@ -1,0 +1,33 @@
+//
+// Created by Topa on 07.08.2026.
+//
+
+#include "../include/write_console.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int write_number() {  // счиытваем число с консоли
+    int choice;
+    char *endptr;
+    char buf[100];
+    while (1) {
+        fgets(buf, sizeof(buf), stdin);
+        choice = strtol(buf, &endptr, 10);
+        if (endptr == buf) {
+            //   проверяем что в массиве вообще есть числа
+            printf("Ошибка: введите число\n");
+            continue;
+        }
+        while (*endptr == ' ' || *endptr == '\t') {
+            // пропускаем знаки табуляции
+            endptr++;
+        }
+        if (*endptr != '\n' && *endptr != '\0') {
+            // првоеряем что после числа, нет букв
+            printf("Некорректный ввод числа, введите число!\n");
+            continue;
+        }
+        return choice;
+    }
+}

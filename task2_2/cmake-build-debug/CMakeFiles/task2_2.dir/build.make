@@ -53,10 +53,10 @@ RM = /snap/clion/473/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/topa/eltex/task2_3
+CMAKE_SOURCE_DIR = /home/topa/Desktop/c/eltexC/task2_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/topa/eltex/task2_3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/task2_2.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/task2_2.dir/codegen:
 .PHONY : CMakeFiles/task2_2.dir/codegen
 
 CMakeFiles/task2_2.dir/src/main.c.o: CMakeFiles/task2_2.dir/flags.make
-CMakeFiles/task2_2.dir/src/main.c.o: /home/topa/eltex/task2_3/src/main.c
+CMakeFiles/task2_2.dir/src/main.c.o: /home/topa/Desktop/c/eltexC/task2_2/src/main.c
 CMakeFiles/task2_2.dir/src/main.c.o: CMakeFiles/task2_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/task2_2.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task2_2.dir/src/main.c.o -MF CMakeFiles/task2_2.dir/src/main.c.o.d -o CMakeFiles/task2_2.dir/src/main.c.o -c /home/topa/eltex/task2_3/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/task2_2.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task2_2.dir/src/main.c.o -MF CMakeFiles/task2_2.dir/src/main.c.o.d -o CMakeFiles/task2_2.dir/src/main.c.o -c /home/topa/Desktop/c/eltexC/task2_2/src/main.c
 
 CMakeFiles/task2_2.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/task2_2.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/eltex/task2_3/src/main.c > CMakeFiles/task2_2.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/Desktop/c/eltexC/task2_2/src/main.c > CMakeFiles/task2_2.dir/src/main.c.i
 
 CMakeFiles/task2_2.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/task2_2.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/eltex/task2_3/src/main.c -o CMakeFiles/task2_2.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/Desktop/c/eltexC/task2_2/src/main.c -o CMakeFiles/task2_2.dir/src/main.c.s
 
 CMakeFiles/task2_2.dir/src/math_ops.c.o: CMakeFiles/task2_2.dir/flags.make
-CMakeFiles/task2_2.dir/src/math_ops.c.o: /home/topa/eltex/task2_3/src/math_ops.c
+CMakeFiles/task2_2.dir/src/math_ops.c.o: /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c
 CMakeFiles/task2_2.dir/src/math_ops.c.o: CMakeFiles/task2_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/task2_2.dir/src/math_ops.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task2_2.dir/src/math_ops.c.o -MF CMakeFiles/task2_2.dir/src/math_ops.c.o.d -o CMakeFiles/task2_2.dir/src/math_ops.c.o -c /home/topa/eltex/task2_3/src/math_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/task2_2.dir/src/math_ops.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task2_2.dir/src/math_ops.c.o -MF CMakeFiles/task2_2.dir/src/math_ops.c.o.d -o CMakeFiles/task2_2.dir/src/math_ops.c.o -c /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c
 
 CMakeFiles/task2_2.dir/src/math_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/task2_2.dir/src/math_ops.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/eltex/task2_3/src/math_ops.c > CMakeFiles/task2_2.dir/src/math_ops.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c > CMakeFiles/task2_2.dir/src/math_ops.c.i
 
 CMakeFiles/task2_2.dir/src/math_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/task2_2.dir/src/math_ops.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/eltex/task2_3/src/math_ops.c -o CMakeFiles/task2_2.dir/src/math_ops.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c -o CMakeFiles/task2_2.dir/src/math_ops.c.s
 
 CMakeFiles/task2_2.dir/src/io_utils.c.o: CMakeFiles/task2_2.dir/flags.make
-CMakeFiles/task2_2.dir/src/io_utils.c.o: /home/topa/eltex/task2_3/src/io_utils.c
+CMakeFiles/task2_2.dir/src/io_utils.c.o: /home/topa/Desktop/c/eltexC/task2_2/src/io_utils.c
 CMakeFiles/task2_2.dir/src/io_utils.c.o: CMakeFiles/task2_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/task2_2.dir/src/io_utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task2_2.dir/src/io_utils.c.o -MF CMakeFiles/task2_2.dir/src/io_utils.c.o.d -o CMakeFiles/task2_2.dir/src/io_utils.c.o -c /home/topa/eltex/task2_3/src/io_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/task2_2.dir/src/io_utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task2_2.dir/src/io_utils.c.o -MF CMakeFiles/task2_2.dir/src/io_utils.c.o.d -o CMakeFiles/task2_2.dir/src/io_utils.c.o -c /home/topa/Desktop/c/eltexC/task2_2/src/io_utils.c
 
 CMakeFiles/task2_2.dir/src/io_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/task2_2.dir/src/io_utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/eltex/task2_3/src/io_utils.c > CMakeFiles/task2_2.dir/src/io_utils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/Desktop/c/eltexC/task2_2/src/io_utils.c > CMakeFiles/task2_2.dir/src/io_utils.c.i
 
 CMakeFiles/task2_2.dir/src/io_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/task2_2.dir/src/io_utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/eltex/task2_3/src/io_utils.c -o CMakeFiles/task2_2.dir/src/io_utils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/Desktop/c/eltexC/task2_2/src/io_utils.c -o CMakeFiles/task2_2.dir/src/io_utils.c.s
 
 # Object files for target task2_2
 task2_2_OBJECTS = \
@@ -127,8 +127,9 @@ task2_2: CMakeFiles/task2_2.dir/src/main.c.o
 task2_2: CMakeFiles/task2_2.dir/src/math_ops.c.o
 task2_2: CMakeFiles/task2_2.dir/src/io_utils.c.o
 task2_2: CMakeFiles/task2_2.dir/build.make
+task2_2: CMakeFiles/task2_2.dir/compiler_depend.ts
 task2_2: CMakeFiles/task2_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable task2_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable task2_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task2_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +141,6 @@ CMakeFiles/task2_2.dir/clean:
 .PHONY : CMakeFiles/task2_2.dir/clean
 
 CMakeFiles/task2_2.dir/depend:
-	cd /home/topa/eltex/task2_3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/topa/eltex/task2_3 /home/topa/eltex/task2_3 /home/topa/eltex/task2_3/cmake-build-debug /home/topa/eltex/task2_3/cmake-build-debug /home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles/task2_2.dir/DependInfo.cmake "--color=$(COLOR)" task2_2
+	cd /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/topa/Desktop/c/eltexC/task2_2 /home/topa/Desktop/c/eltexC/task2_2 /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles/task2_2.dir/DependInfo.cmake "--color=$(COLOR)" task2_2
 .PHONY : CMakeFiles/task2_2.dir/depend
 

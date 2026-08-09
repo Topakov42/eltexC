@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/topa/eltex/task2_3/src/io_utils.c" "CMakeFiles/task2_2.dir/src/io_utils.c.o" "gcc" "CMakeFiles/task2_2.dir/src/io_utils.c.o.d"
-  "/home/topa/eltex/task2_3/src/main.c" "CMakeFiles/task2_2.dir/src/main.c.o" "gcc" "CMakeFiles/task2_2.dir/src/main.c.o.d"
-  "/home/topa/eltex/task2_3/src/math_ops.c" "CMakeFiles/task2_2.dir/src/math_ops.c.o" "gcc" "CMakeFiles/task2_2.dir/src/math_ops.c.o.d"
+  "/home/topa/Desktop/c/eltexC/task2_2/src/io_utils.c" "CMakeFiles/task2_2.dir/src/io_utils.c.o" "gcc" "CMakeFiles/task2_2.dir/src/io_utils.c.o.d"
+  "/home/topa/Desktop/c/eltexC/task2_2/src/main.c" "CMakeFiles/task2_2.dir/src/main.c.o" "gcc" "CMakeFiles/task2_2.dir/src/main.c.o.d"
+  "/home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c" "CMakeFiles/task2_2.dir/src/math_ops.c.o" "gcc" "CMakeFiles/task2_2.dir/src/math_ops.c.o.d"
+  "" "task2_2" "gcc" "CMakeFiles/task2_2.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

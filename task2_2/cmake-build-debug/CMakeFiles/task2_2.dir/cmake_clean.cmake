@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/task2_2.dir/link.d"
   "CMakeFiles/task2_2.dir/src/io_utils.c.o"
   "CMakeFiles/task2_2.dir/src/io_utils.c.o.d"
   "CMakeFiles/task2_2.dir/src/main.c.o"

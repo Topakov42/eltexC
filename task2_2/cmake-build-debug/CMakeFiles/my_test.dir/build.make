@@ -53,10 +53,10 @@ RM = /snap/clion/473/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/topa/eltex/task2_3
+CMAKE_SOURCE_DIR = /home/topa/Desktop/c/eltexC/task2_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/topa/eltex/task2_3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_test.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/my_test.dir/codegen:
 .PHONY : CMakeFiles/my_test.dir/codegen
 
 CMakeFiles/my_test.dir/tests/test_cal.c.o: CMakeFiles/my_test.dir/flags.make
-CMakeFiles/my_test.dir/tests/test_cal.c.o: /home/topa/eltex/task2_3/tests/test_cal.c
+CMakeFiles/my_test.dir/tests/test_cal.c.o: /home/topa/Desktop/c/eltexC/task2_2/tests/test_cal.c
 CMakeFiles/my_test.dir/tests/test_cal.c.o: CMakeFiles/my_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_test.dir/tests/test_cal.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_test.dir/tests/test_cal.c.o -MF CMakeFiles/my_test.dir/tests/test_cal.c.o.d -o CMakeFiles/my_test.dir/tests/test_cal.c.o -c /home/topa/eltex/task2_3/tests/test_cal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_test.dir/tests/test_cal.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_test.dir/tests/test_cal.c.o -MF CMakeFiles/my_test.dir/tests/test_cal.c.o.d -o CMakeFiles/my_test.dir/tests/test_cal.c.o -c /home/topa/Desktop/c/eltexC/task2_2/tests/test_cal.c
 
 CMakeFiles/my_test.dir/tests/test_cal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_test.dir/tests/test_cal.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/eltex/task2_3/tests/test_cal.c > CMakeFiles/my_test.dir/tests/test_cal.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/Desktop/c/eltexC/task2_2/tests/test_cal.c > CMakeFiles/my_test.dir/tests/test_cal.c.i
 
 CMakeFiles/my_test.dir/tests/test_cal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_test.dir/tests/test_cal.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/eltex/task2_3/tests/test_cal.c -o CMakeFiles/my_test.dir/tests/test_cal.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/Desktop/c/eltexC/task2_2/tests/test_cal.c -o CMakeFiles/my_test.dir/tests/test_cal.c.s
 
 CMakeFiles/my_test.dir/src/math_ops.c.o: CMakeFiles/my_test.dir/flags.make
-CMakeFiles/my_test.dir/src/math_ops.c.o: /home/topa/eltex/task2_3/src/math_ops.c
+CMakeFiles/my_test.dir/src/math_ops.c.o: /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c
 CMakeFiles/my_test.dir/src/math_ops.c.o: CMakeFiles/my_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_test.dir/src/math_ops.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_test.dir/src/math_ops.c.o -MF CMakeFiles/my_test.dir/src/math_ops.c.o.d -o CMakeFiles/my_test.dir/src/math_ops.c.o -c /home/topa/eltex/task2_3/src/math_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_test.dir/src/math_ops.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_test.dir/src/math_ops.c.o -MF CMakeFiles/my_test.dir/src/math_ops.c.o.d -o CMakeFiles/my_test.dir/src/math_ops.c.o -c /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c
 
 CMakeFiles/my_test.dir/src/math_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_test.dir/src/math_ops.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/eltex/task2_3/src/math_ops.c > CMakeFiles/my_test.dir/src/math_ops.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c > CMakeFiles/my_test.dir/src/math_ops.c.i
 
 CMakeFiles/my_test.dir/src/math_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_test.dir/src/math_ops.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/eltex/task2_3/src/math_ops.c -o CMakeFiles/my_test.dir/src/math_ops.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/topa/Desktop/c/eltexC/task2_2/src/math_ops.c -o CMakeFiles/my_test.dir/src/math_ops.c.s
 
 # Object files for target my_test
 my_test_OBJECTS = \
@@ -111,8 +111,9 @@ my_test_EXTERNAL_OBJECTS =
 my_test: CMakeFiles/my_test.dir/tests/test_cal.c.o
 my_test: CMakeFiles/my_test.dir/src/math_ops.c.o
 my_test: CMakeFiles/my_test.dir/build.make
+my_test: CMakeFiles/my_test.dir/compiler_depend.ts
 my_test: CMakeFiles/my_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable my_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable my_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +125,6 @@ CMakeFiles/my_test.dir/clean:
 .PHONY : CMakeFiles/my_test.dir/clean
 
 CMakeFiles/my_test.dir/depend:
-	cd /home/topa/eltex/task2_3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/topa/eltex/task2_3 /home/topa/eltex/task2_3 /home/topa/eltex/task2_3/cmake-build-debug /home/topa/eltex/task2_3/cmake-build-debug /home/topa/eltex/task2_3/cmake-build-debug/CMakeFiles/my_test.dir/DependInfo.cmake "--color=$(COLOR)" my_test
+	cd /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/topa/Desktop/c/eltexC/task2_2 /home/topa/Desktop/c/eltexC/task2_2 /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug /home/topa/Desktop/c/eltexC/task2_2/cmake-build-debug/CMakeFiles/my_test.dir/DependInfo.cmake "--color=$(COLOR)" my_test
 .PHONY : CMakeFiles/my_test.dir/depend
 
