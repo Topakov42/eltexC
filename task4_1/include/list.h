@@ -24,5 +24,5 @@ void insert_sorted(ContactList *list, char *lastName, char *firstName, char *mid
 void remove_node(ContactList *list, Node *person);
 Node* get_node_by_index(ContactList *list, int index);
 void free_list(ContactList *list);
-
+void sort_list(ContactList *list);
 #endif

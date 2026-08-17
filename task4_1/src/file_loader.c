@@ -14,7 +14,6 @@ int load_contacts_from_file(ContactList *list, const char *filename) {
     int count = 0;
 
     while (fgets(line, sizeof(line), file) != NULL) {
-        // Убираем символ переноса строки в конце
         line[strcspn(line, "\r\n")] = 0;
         if (strlen(line) == 0) continue;
 
@@ -26,7 +25,6 @@ int load_contacts_from_file(ContactList *list, const char *filename) {
 
         if (fio && work && number && mail) {
             // Убираем лишние пробелы по краям, если они есть
-            // Для примера разделим ФИО на Фамилию, Имя, Отчество (если они через пробел)
             char *lastName = strtok(fio, " ");
             char *firstName = strtok(NULL, " ");
             char *midName = strtok(NULL, " ");

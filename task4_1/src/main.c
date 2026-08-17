@@ -6,7 +6,7 @@
 
 int main(void) {
     ContactList *list = create_list();
-    load_contacts_from_file(list, "../contaks.conf");  // чиатем конфиг с данными
+    load_contacts_from_file(list, "../contaks.conf"); // чиатем конфиг с данными
 
     while (1) {
         printf("\nВыберите действие:\n");
@@ -17,7 +17,7 @@ int main(void) {
         printf("5) Вывести количество записей\n");
         printf("6) Завершение программы\n");
 
-        int option;                                           //
+        int option; //
         if (scanf("%d", &option) != 1) {
             int c;
             while ((c = getchar()) != '\n' && c != EOF) {
@@ -35,12 +35,15 @@ int main(void) {
             case 1:
                 target = pickPerson(list);
                 if (target != NULL) editPerson(target);
+                sort_list(list);
                 break;
             case 2:
                 target = pickPerson(list);
                 if (target != NULL) {
                     remove_node(list, target);
                     printf("Контакт успешно удален.\n");
+                sort_list(list);
+
                 }
                 break;
             case 3:
