@@ -1,13 +1,4 @@
 /snap/clion/473/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/topa/Desktop/c/eltexC/task2_3 -B /home/topa/Desktop/c/eltexC/task2_3/cmake-build-debug
--- The C compiler identification is GNU 13.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1")
--- Checking for module 'check'
---   Found check, version 0.15.2
--- Configuring done (0.3s)
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/topa/Desktop/c/eltexC/task2_3/cmake-build-debug
