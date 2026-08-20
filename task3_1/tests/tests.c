@@ -33,24 +33,15 @@ void test_parse_string_rights(void) {
 
 void test_apply_chmod(void) {
     // 1. Тесты на сброс прав с нескольких категорий (go-rx)
-    // Исходные: 0777 (rwxrwxrwx) -> go-rx -> 0722 (rwx-w--w-)
     assert(apply_chmod(0777, "go-rx") == 0722);
 
     // 2. Тесты на точную установку прав для двух категорий (ug=wx)
-    // Исходные: 0777 (rwxrwxrwx) -> ug=wx -> 0337 (-wx-wxrwx)
     assert(apply_chmod(0777, "ug=wx") == 0337);
 
     // 3. Тесты с одиночными флагами и всеми категориями (a)
-    // Исходные: 0644 (rw-r--r--) -> u+x -> 0744 (rwxr--r--)
     assert(apply_chmod(0644, "u+x") == 0744);
-
-    // Исходные: 0777 (rwxrwxrwx) -> a-w -> 0555 (r-xr-xr-x)
     assert(apply_chmod(0777, "a-w") == 0555);
-
-    // Исходные: 0000 (---------) -> go+r -> 0044 (---r--r--)
     assert(apply_chmod(0000, "go+r") == 0044);
-
-    // Исходные: 0755 (rwxr-xr-x) -> u=rw -> 0655 (rw-r-xr-x)
     assert(apply_chmod(0755, "u=rw") == 0655);
 
     // 4. Тесты с некорректным вводом

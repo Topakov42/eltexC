@@ -16,7 +16,7 @@ ContactList* create_list() {
 
 // Вставка с сохранением порядка (сортировка по фамилии)
 void insert_sorted(ContactList *list, char *lastName, char *firstName, char *midName, char *work, char *number, char *mail) {
-    Node *newNode = (Node*)malloc(sizeof(Node));  // выделяем память под новый список
+    Node *newNode = (Node*)malloc(sizeof(Node));
     if (newNode == NULL) return;
 
     newNode->lastName = strdup(lastName);
@@ -97,6 +97,7 @@ void remove_node(ContactList *list, Node *person) {
     free(person);
 
     list->size--;
+
 }
 
 // Очистка памяти всего списка
@@ -116,4 +117,49 @@ void free_list(ContactList *list) {
         current = next;
     }
     free(list);
+}
+
+
+void sort_list(ContactList *list) {  // функция сортировки списка по фамилии. исп при удалении/ изменении \ добавлении контакта
+    if (list == NULL || list->head == NULL || list->head->next == NULL) return;
+
+    int swapped;
+    Node *ptr1;
+    Node *lptr = NULL;
+
+    do {
+        swapped = 0;
+        ptr1 = list->head;
+
+        while (ptr1->next != lptr) {
+            // Сравниваем фамилии двух соседних контактов
+            if (strcmp(ptr1->lastName, ptr1->next->lastName) > 0) {
+                // Меняем местами указатели на строки
+                char *tempLast  = ptr1->lastName;
+                char *tempFirst = ptr1->firstName;
+                char *tempMid   = ptr1->midName;
+                char *tempWork  = ptr1->work;
+                char *tempNum   = ptr1->number;
+                char *tempMail  = ptr1->mail;
+
+                ptr1->lastName  = ptr1->next->lastName;
+                ptr1->firstName = ptr1->next->firstName;
+                ptr1->midName   = ptr1->next->midName;
+                ptr1->work      = ptr1->next->work;
+                ptr1->number    = ptr1->next->number;
+                ptr1->mail      = ptr1->next->mail;
+
+                ptr1->next->lastName  = tempLast;
+                ptr1->next->firstName = tempFirst;
+                ptr1->next->midName   = tempMid;
+                ptr1->next->work      = tempWork;
+                ptr1->next->number    = tempNum;
+                ptr1->next->mail      = tempMail;
+
+                swapped = 1;
+            }
+            ptr1 = ptr1->next;
+        }
+        lptr = ptr1;
+    } while (swapped);
 }
